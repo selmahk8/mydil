@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Contactez-nous</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="mydilogo.png" alt="">
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <img src="mydilogo.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="home.php">Home</a>
+                </li>
+                <li>
+                    <a href="villes.html">Villes</a>
+                </li>
+                <li>
+                    <a href="formulaire.html">Formulaire demande de matériels</a>
+                </li>
+                <li>
+                    <a href="index.php">Modifier Inventaire</a>
+                </li>
+                <li>
+                    <a href="contactform.html">Contact</a>
+                </li>
+                <li>
+                    <a href="index.html"class="active">Déconnexion</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </header>
+
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contactez-nous</title>
+	<link rel="stylesheet" type="text/css" href="contactform.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+    <form class="" action="send.php" method="post">
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contactez-nous</h2>
+			    <input type="text" class="field" name ="nom" placeholder="Votre nom" value="">
+				<input type="email" class="field" name ="email" placeholder="Votre courrier" value="">
+				<textarea name ="message" placeholder="Message" class="field"  value=""></textarea>
+				<button type ="submit" name="send" class="btn">Envoyer</button>
+			</div>
+		</div>
+	</div>
+</form>
+</body>
+</html>

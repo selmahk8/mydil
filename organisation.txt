@@ -1,0 +1,14 @@
+1ere page : connexion 
+
+2eme page : Page d'accueil avec les villes en menu et la liste du stock affiché sur la page  
+https://www.youtube.com/watch?v=WSoCjg3YKHk
+
+3eme page : 
+-page d'accueil avec la liste des equipements du lab de la ville concernée;
+-admin peut ajouter ou supprimer un element de la liste de sa ville
+-admin peut voir le stock des autres labo mydil de France
+
+-Sur chaque page d'une ville, on peut ajouter ou supprimer un éléments de la liste du stock
+
+
+-voir schema de la nav bar avec ce qu'il faut faire sur chaque page.

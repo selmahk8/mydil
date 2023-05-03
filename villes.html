@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+
+    <title>Inventaire MyDil</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="mydilogo.png" alt="">
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <img src="mydilogo.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="home.php">Home</a>
+                </li>
+                <li>
+                    <a href="villes.html">Villes</a>
+                </li>
+                <li>
+                    <a href="formulaire.html">Formulaire demande de matériels</a>
+                </li>
+                <li>
+                    <a href="index.php">Modifier Inventaire</a>
+                </li>
+                <li>
+                    <a href="contactform.html">Contact</a>
+                </li>
+                <li>
+                    <a href="index.html"class="active">Déconnexion</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </header>
+
+    <br>
+
+    <center>
+        <h2>Inventaire MyDil de chaque villes :</h2>
+    </center>
+
+    <br>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des villes</title>
+    <link rel="stylesheet" href="villes.css">
+</head>
+
+<body>
+    
+  <!-- About Start -->
+  <div class="container-xxl py-6" id="about">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-5">
+                    <div class="years flex-shrink-0 text-center me-4">
+                        <h1 class="display-1 mb-0">12</h1>
+                        <h5 class="mb-0">villes</h5>
+                    </div>
+                    <h3 class="lh-base mb-0">où vous pouvez trouver quelque chose de différent</h3>
+                </div>
+                <p class="mb-4">Il est à la fois un lieu de formation, d'échange et de rencontre pour développer, accélérer, co-construire, imaginer les usages, favoriser l'émergence de projets innovants par la collaboration entre apprenants, intervenants et professionnels. Ce lieu est le cœur du modèle pédagogique EPSI basé sur l'apprentissage actif. Il met l'innovation technique et numérique au service de l'acquisition des compétences.</p>
+                <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Campus d'Arras</p>
+                <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Campus de Lille</p>
+                <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Campus de Paris</p>
+                <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Campus de Reims</p>
+                <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Campus de Toulouse</p>
+                <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>.........</p>
+                <form action="ville.php" method="post">
+                    <div class="input-group">
+                        <input type="text" name ="ville" class="form-control rounded" placeholder="Ville" aria-label="Search" aria-describedby="search-addon" />
+                        <button type="submit" class="btn btn-warning btn-rounded">search</button>
+                    </div>
+                </form>
+                
+
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row g-3 mb-4">
+                    <div class="col-sm-6">
+                        <img class="img-fluid rounded" src="v3.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-fluid rounded" src="v4.png" alt="">
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <h5 class="border-end pe-3 me-3 mb-0">Personnel d'encadrements</h5>
+                    <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1</h2>
+                </div>
+                <p class="mb-4">MyDil est animé par un coach et l’ensemble du réseau des 12 MyDil est interconnecté en temps réel afin de favoriser l’échange entre les campus et la valorisation des compétences.</p>
+                <div class="d-flex align-items-center mb-3">
+                    <h5 class="border-end pe-3 me-3 mb-0">Fonctions expérimentales</h5>
+                    <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">4</h2>
+                </div>
+                <p class="mb-0">Plusieurs laboratoires sont liés au laboratoire MyDil qui permet aux apprenants d'expérimenter la sécurité et d'utiliser les sujets pour lesquels des données sont collectées et disponibles.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+    
+
+
+
+</body>
+</html>
+

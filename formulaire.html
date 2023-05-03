@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de matériels</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    
+
+    <header>
+        <div class="logo">
+            <img src="mydilogo.png" alt="">
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <div class="logo">
+                <img src="mydilogo.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="home.php">Home</a>
+                </li>
+                <li>
+                    <a href="villes.html">Villes</a>
+                </li>
+                <li>
+                    <a href="formulaire.html">Formulaire demande de matériels</a>
+                </li>
+                <li>
+                    <a href="index.php">Modifier Inventaire</a>
+                </li>
+                <li>
+                    <a href="contactform.html">Contact</a>
+                </li>
+                <li>
+                    <a href="index.html"class="active">Déconnexion</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </header>
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de matériels</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <form action="formulaire.php" method="post">
+    <div class="wrapper">
+        <div class="title">Demande de matériels
+        </div>
+        <div class="form">
+           <div class="inputfield">
+              <label>Nom du demandeur</label>
+              <input type="text" name ="nom" class="input" required>
+           </div>  
+            <div class="inputfield">
+              <label>Email du demandeur</label>
+              <input type="email" name ="mail" class="input" required>
+           </div>
+            
+           <div class="inputfield">
+            <label>Ville:</label>
+            <div class="custom_select">
+              <select name ="ville">
+                <option value disabled selected="ville">Choix de la ville</option>
+                <option value="arras">Arras</option>
+                <option value="auxerre">Auxerre</option>
+                <option value="bordeaux">Bordeaux</option>
+                <option value="grenoble">Grenoble</option>
+                <option value="lille">Lille</option>
+                <option value="lyon">Lyon</option>
+                <option value="montpellier">Montpellier</option>
+                <option value="nantes">Nantes</option>
+                <option value="paris">Paris</option>
+                <option value="reims">Reims</option>
+                <option value="rennes">Rennes</option>
+                <option value="toulouse">Toulouse</option>
+              </select>
+            </div>
+            </div> 
+
+          <div class="inputfield">
+              <label>Téléphone</label>
+              <input type="number" name="phone" class="input">
+           </div> 
+          <div class="inputfield">
+              <label>Matériels demandés</label>
+              <textarea  class="textarea" name ="demander"></textarea>
+           </div>
+          <div class="inputfield terms">
+              <label class="check">
+                <input type="checkbox" required>
+                <span class="checkmark"></span> 
+              </label>
+              <p>Je confirme ma commande</p> 
+           </div> 
+          <div class="inputfield">
+            <input type="submit" value="Valider la commande" class="btn">
+          </div>
+        </div>
+    </div>
+</form>
+
+
+</body>
+</html>
